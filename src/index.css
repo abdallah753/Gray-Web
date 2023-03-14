@@ -1,0 +1,39 @@
+/*.master {
+  letter-spacing: 0.8rem;
+  font-size: 100px;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  font-family: Arial, Helvetica, sans-serif;
+  /*-webkit-text-fill-color: transparent;*/
+
+.border-md-none{
+  border-left:8px solid rgb(100, 161, 157) ;
+}
+
+@media (max-width: 992px) {
+  .border-md-none {
+    border: none;
+  }
+}
+
+.cccc{
+  min-height: 35rem;
+  height: auto;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url(../public/imges/bg-signup.jpg);
+      background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
+}
+
+.nnn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url(../public/imges/bg-masthead.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-size: cover;
+        min-height: 35rem;
+          height: auto;
+    }
